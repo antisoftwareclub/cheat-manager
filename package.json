@@ -1,0 +1,39 @@
+{
+    "name": "@antisoftwareclub/cheat-manager",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist/**/*"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc",
+        "prepare": "husky install && pnpm run build",
+        "lint": "eslint . --ext .js,.ts",
+        "format": "prettier --write \"src/**/*.ts\"",
+        "prepublishOnly": "pnpm run lint",
+        "preversion": "pnpm run lint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/antisoftwareclub/cheat-manager.git"
+    },
+    "author": "anti software software club <corp@antisoftware.club>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/antisoftwareclub/cheat-manager/issues"
+    },
+    "homepage": "https://github.com/antisoftwareclub/cheat-manager#readme",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.31.1",
+        "@typescript-eslint/parser": "^4.31.1",
+        "eslint": "^7.32.0",
+        "eslint-config-prettier": "^8.3.0",
+        "husky": "^7.0.2",
+        "prettier": "^2.4.1",
+        "pretty-quick": "^3.1.1",
+        "typescript": "^4.4.3"
+    }
+}

@@ -1,0 +1,4 @@
+node_modules/
+dist/
+.nova/
+.DS_Store
