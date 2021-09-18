@@ -2,10 +2,10 @@
     "name": "@antisoftwareclub/cheat-manager",
     "version": "0.0.1",
     "description": "A small browser-side module for detecting konami code inputs",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
     "files": [
-        "dist/**/*"
+        "lib/**/*"
     ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",

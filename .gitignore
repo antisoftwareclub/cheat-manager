@@ -1,4 +1,4 @@
 node_modules/
-dist/
+lib/
 .nova/
 .DS_Store
