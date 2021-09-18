@@ -1,7 +1,7 @@
 {
     "name": "@antisoftwareclub/cheat-manager",
     "version": "0.0.1",
-    "description": "",
+    "description": "A small browser-side module for detecting konami code inputs",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "files": [
